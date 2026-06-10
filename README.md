@@ -20,7 +20,7 @@
 ## 🛠️ Tech Stack & Tools
 
 **Language**
-`Python 3.x`
+`Python 3.12`
 
 **Data & ML**
 | Library | Role |
@@ -103,7 +103,7 @@ Each model is first trained with default parameters as a baseline, then re-train
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/heart-disease-prediction.git
+git clone https://github.com/shahid-nawazai/heart-disease-prediction.git
 cd heart-disease-prediction
 ```
 
