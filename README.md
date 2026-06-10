@@ -1,6 +1,6 @@
 # Heart Disease Prediction System
 
-> A production-ready web application leveraging Machine Learning to assess cardiovascular risk profiles. The system features a multi-staged preprocessing pipeline, custom cluster feature injection, and SHAP-driven explainable AI diagnostics to deliver interpretable risk scores.
+> A production-ready web application leveraging Machine Learning through Xgboost with 87.04% accuracy to assess cardiovascular risk profiles. The system features a multi-staged preprocessing pipeline, custom cluster feature injection, and SHAP-driven explainable AI diagnostics to deliver interpretable risk scores.
 
 ---
 
