@@ -138,10 +138,3 @@ Run all cells top-to-bottom (`Kernel → Restart & Run All`).
 
 ---
 
-## 🗺️ Future Roadmap
-
-1. **SHAP Explainability Layer** — Integrate SHAP (SHapley Additive exPlanations) to generate per-prediction feature importance plots, making the model interpretable enough for a clinical audience and satisfying explainability requirements in healthcare AI.
-
-2. **SMOTE / Class-Balancing Pipeline** — Introduce Synthetic Minority Over-sampling Technique (SMOTE) inside a proper `Pipeline` object to handle any residual class imbalance without leaking resampled data into the validation fold — a common but critical pitfall.
-
-3. **Streamlit Deployment** — Wrap the best-performing tuned model in a lightweight Streamlit web app, allowing a clinician (or recruiter 😄) to input patient vitals and receive an instant cardiovascular risk prediction with confidence score.
