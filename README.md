@@ -255,10 +255,5 @@ shap_values = explainer.shap_values(processed_data)
 - **Negative Attribution Weights (-x):** Indicates protective habits or healthy metrics that drop the cumulative risk baseline.
 - **Visual Serialization:** Feature outputs for gender and administrative cluster groups are systematically excluded from the output dictionary. The remaining indicators are sorted by absolute magnitude, converted to standard float arrays, and pushed to front-end visualization matrices to chart specific patient exposure risks.
 
----
 
-## Future Enhancements
 
-- **Asynchronous Inference Workers:** Transition the SHAP processing loop into a background Celery queue handler to optimize request-response lifecycles during heavy user traffic.
-- **Comprehensive Multi-Model Pipelines:** Add an administrative toggle to compare predictions across XGBoost, Random Forests, and deep neural networks in real time.
-- **Patient History Logging:** Expand the relational database schema to securely log serial patient diagnostics, allowing users to track their cardiovascular health trajectory over time.
